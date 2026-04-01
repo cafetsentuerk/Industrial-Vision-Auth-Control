@@ -1,0 +1,14 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Data & Logs
+face_databank/
+Testergebnisse/
+*.csv
+*.log
+
+# Models & OS files
+.DS_Store
+Thumbs.db
