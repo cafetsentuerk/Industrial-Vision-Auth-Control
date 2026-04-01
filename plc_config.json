@@ -1,0 +1,44 @@
+{
+  "ip": "192.168.1.1",
+  "rack": 0,
+  "slot": 1,
+  "mappings": {
+    "open": {
+      "address": "M0.0",
+      "mode": "TOGGLE"
+    },
+    "index_up": {
+      "address": "M0.0",
+      "mode": "RESET"
+    },
+    "peace": {
+      "address": "M0.0",
+      "mode": "SET"
+    },
+    "three_fingers_row": {
+      "address": "DB1.DBW0",
+      "mode": "ANALOG",
+      "analog_value": 200
+    },
+    "rock": {
+      "address": "DB1.DBW0",
+      "mode": "ANALOG",
+      "analog_value": 500
+    },
+    "Daumen_hoch": {
+      "address": "DB1.DBW0",
+      "mode": "ANALOG",
+      "analog_value": 1500
+    },
+    "Wolf": {
+      "address": "DB1.DBW0",
+      "mode": "ANALOG",
+      "analog_value": 2000
+    },
+    "klein finger": {
+      "address": "DB1.DBW0",
+      "mode": "ANALOG",
+      "analog_value": 1300
+    }
+  }
+}

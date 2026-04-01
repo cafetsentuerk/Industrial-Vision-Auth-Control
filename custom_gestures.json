@@ -1,0 +1,68 @@
+{
+  "Daumen hoch": {
+    "display_name": "Daumen hoch",
+    "action_text": "Geste: Daumen hoch",
+    "channel": "CH1",
+    "gpio_pin": 5,
+    "roles": [
+      "admin",
+      "ingenieur",
+      "operator"
+    ]
+  },
+  "Daumen_hoch": {
+    "display_name": "Daumen_hoch",
+    "action_text": "Geste: Daumen_hoch",
+    "channel": "CH1",
+    "gpio_pin": 5,
+    "roles": [
+      "admin",
+      "ingenieur",
+      "operator"
+    ]
+  },
+  "rock": {
+    "display_name": "rock",
+    "action_text": "Geste: rock",
+    "channel": "CH1",
+    "gpio_pin": 5,
+    "roles": [
+      "admin",
+      "ingenieur",
+      "operator"
+    ]
+  },
+  "klein finger": {
+    "display_name": "klein finger",
+    "action_text": "Geste: klein finger",
+    "channel": "CH1",
+    "gpio_pin": 5,
+    "roles": [
+      "admin",
+      "ingenieur",
+      "operator"
+    ]
+  },
+  "neu": {
+    "display_name": "neu",
+    "action_text": "Geste: neu",
+    "channel": "CH1",
+    "gpio_pin": 5,
+    "roles": [
+      "admin",
+      "ingenieur",
+      "operator"
+    ]
+  },
+  "neu2": {
+    "display_name": "neu2",
+    "action_text": "Geste: neu2",
+    "channel": "CH1",
+    "gpio_pin": 5,
+    "roles": [
+      "admin",
+      "ingenieur",
+      "operator"
+    ]
+  }
+}

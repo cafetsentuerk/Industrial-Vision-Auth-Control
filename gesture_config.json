@@ -1,0 +1,102 @@
+{
+  "gestures": {
+    "open": {
+      "enabled": 1,
+      "display_name": "Offene Hand",
+      "description": "Alle Finger offen",
+      "action_text": "System Start",
+      "roles": [
+        "admin",
+        "ingenieur",
+        "operator"
+      ],
+      "gpio_pin": 13,
+      "channel": "CH3",
+      "gesture_type": "builtin"
+    },
+    "index_up": {
+      "enabled": 1,
+      "display_name": "Zeigefinger",
+      "description": "Zeigefinger hoch",
+      "action_text": "System ist eingestellt",
+      "roles": [
+        "admin",
+        "ingenieur"
+      ],
+      "gpio_pin": 21,
+      "channel": "CH7",
+      "gesture_type": "builtin"
+    },
+    "peace": {
+      "enabled": 1,
+      "display_name": "Victory/Peace",
+      "description": "Zwei Finger",
+      "action_text": "System ist zurückgesetzt",
+      "roles": [
+        "admin",
+        "ingenieur"
+      ],
+      "gpio_pin": 26,
+      "channel": "CH8",
+      "gesture_type": "builtin"
+    },
+    "three_fingers_row": {
+      "enabled": 1,
+      "display_name": "Drei Finger",
+      "description": "Drei Finger hoch",
+      "action_text": "System Stop",
+      "roles": [
+        "admin"
+      ],
+      "gpio_pin": 20,
+      "channel": "CH6",
+      "gesture_type": "builtin"
+    }
+  },
+  "available_channels": {
+    "CH1": {
+      "bcm_pin": 5,
+      "physical_pin": 29,
+      "description": "Kanal 1"
+    },
+    "CH2": {
+      "bcm_pin": 6,
+      "physical_pin": 31,
+      "description": "Kanal 2"
+    },
+    "CH3": {
+      "bcm_pin": 13,
+      "physical_pin": 33,
+      "description": "Kanal 3"
+    },
+    "CH4": {
+      "bcm_pin": 16,
+      "physical_pin": 36,
+      "description": "Kanal 4"
+    },
+    "CH5": {
+      "bcm_pin": 19,
+      "physical_pin": 35,
+      "description": "Kanal 5"
+    },
+    "CH6": {
+      "bcm_pin": 20,
+      "physical_pin": 38,
+      "description": "Kanal 6"
+    },
+    "CH7": {
+      "bcm_pin": 21,
+      "physical_pin": 40,
+      "description": "Kanal 7"
+    },
+    "CH8": {
+      "bcm_pin": 26,
+      "physical_pin": 37,
+      "description": "Kanal 8"
+    }
+  },
+  "settings": {
+    "allow_multiple_gestures_same_channel": false,
+    "gpio_mode": "BCM"
+  }
+}
